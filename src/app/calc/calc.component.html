@@ -1,0 +1,19 @@
+<form class="calculadora">
+  <input type="number" name="num1" [(ngModel)]="num1">
+  <input type="number" name="num2" [(ngModel)]="num2">
+  <button type="button" (click)="somar()">
+    Somar
+  </button>
+  <button type="button" (click)="subtrair()">
+    Subtrair
+  </button>
+  <button  type="button" (click)="multiplicar()">
+    Multiplicar
+  </button>
+  <button  type="button" (click)="dividir()">
+    Dividir
+  </button>
+  <input name="result" [(ngModel)]="result" disabled>
+  <button type="reset">Limpar</button>
+
+</form>
